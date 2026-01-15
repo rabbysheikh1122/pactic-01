@@ -200,5 +200,23 @@ li a:hover{
     justify-content: center;
 }
 .sponser-logo img{
+    height: 40px;
     filter:grayscale(100%);
 }
+/* footer */
+.footer{
+    margin-top: 1.5rem;
+    padding-bottom:1.5rem;
+    text-align: center;
+}
+.footer p{
+    padding: 8px ;
+    background: rgba(255, 166, 0, 0.279);
+    color: gray;
+    font-size: 15px;
+}
+
+
+
+
+

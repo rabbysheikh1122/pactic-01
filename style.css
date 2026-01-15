@@ -124,7 +124,6 @@ li a:hover{
    margin: 30px;
 }
 .love-01 h1{
-    /* margin: 40px; */
     font-size:1.2rem ;
 }
 .love-01  p{
@@ -137,4 +136,44 @@ li a:hover{
 .love-will-img .btn{
     padding: 12px 15px;
     font-size: 22px;
+}
+
+
+
+/* card section */
+.card-head{
+    margin-top: 3rem;
+}
+.card-head h1{
+    font-size:2rem;
+}
+.card-head p{
+    font-size: 15px;
+    color: gray;
+    margin-top: 10px;
+}
+.main-card{
+    margin-top: 2.5rem;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    justify-content: center;
+    padding-bottom:2rem;
+
+}
+.card{
+    text-align: center;
+    border: 2px solid orange;
+    height: 135px;
+    width: 135px;
+    padding: 10px;
+    /* padding-bottom: 30px; */
+}
+.card h1{
+    font-size: 22px;
+    margin-top: 6px;
+    letter-spacing: 1px;
+}
+.card p{
+    margin-top: 6px;
 }

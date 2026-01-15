@@ -17,7 +17,7 @@ nav{
     justify-content: space-between;
 }
 .header-head{
-    font-size: 30px;
+    font-size: 2rem;
 
 }
 ul{
@@ -106,4 +106,35 @@ li a:hover{
     color: gray;
     margin-top: 12px;
     margin-bottom: 12px;
+}
+
+/* features love & will */
+.love-head h1{ 
+    margin-top: 4rem;
+    padding-left: 12px;
+    font-size: 2rem;
+    border-left:  3px solid orange;
+}
+.love-will-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.love-01{
+   margin: 30px;
+}
+.love-01 h1{
+    /* margin: 40px; */
+    font-size:1.2rem ;
+}
+.love-01  p{
+    font-size: 15px;
+    color: gray;
+}
+.love-will-img img{
+    width: 100%;
+}
+.love-will-img .btn{
+    padding: 12px 15px;
+    font-size: 22px;
 }

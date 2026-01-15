@@ -72,3 +72,38 @@ li a:hover{
     margin-top: 30px;
     width: 100%;
 }
+
+/* features */
+.features-container{
+    margin-top: 50px;
+    gap: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.features-img{
+    margin-left:2rem;
+    gap: 15px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.features-img img{
+    height: 11rem;
+    width: 11rem;
+}
+.features-text .of-our{
+    color: black;
+}
+.features-text .features{
+    color: orange;
+}
+.features-text h1{
+    color: gray;
+    font-size: 2.2rem;
+}
+.features-text p{
+    color: gray;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}

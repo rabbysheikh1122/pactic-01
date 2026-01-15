@@ -177,3 +177,28 @@ li a:hover{
 .card p{
     margin-top: 6px;
 }
+
+/* footer section */
+.sponser-text{
+    text-align: center;
+}
+.sponser-text h1{
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+.sponser-text p{
+    margin-top: 10px;
+    font-size: 15px;
+    color: gray;
+}
+.sponser-logo{
+    padding-bottom: 30px;
+    margin-top: 2.5rem;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+}
+.sponser-logo img{
+    filter:grayscale(100%);
+}
